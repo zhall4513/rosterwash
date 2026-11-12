@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 600" role="img" aria-labelledby="title desc">
+<title id="title">RosterWash</title><desc id="desc">RosterWash, the fleet washing network</desc>
+<defs><linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#00b8e8"/><stop offset="1" stop-color="#08c4e8"/></linearGradient></defs>
+<!-- Interlocking hose loops and spray wands, redrawn as a scalable brand mark -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="38">
+<path stroke="#092550" d="M285 126c-44-33-112-32-151-4-48 35-70 105-42 151 14 23 43 33 72 30m-55 38c-52 34-63 97-38 139 29 49 98 66 151 49 45-15 67-50 68-92V155c0-39 31-70 70-70h153"/>
+<path stroke="url(#cyan)" d="M329 100c27-38 67-57 119-57h123c71 0 127 57 127 127v48m0 154v73c0 72-57 129-129 129H448c-42 0-80-20-103-51"/>
+</g>
+<g fill="#092550"><rect x="103" y="265" width="120" height="76" rx="25"/><rect x="385" y="376" width="120" height="76" rx="25"/><rect x="151" y="334" width="25" height="75" rx="12"/><rect x="433" y="445" width="25" height="75" rx="12"/></g>
+<g fill="none" stroke="#00b8e8" stroke-width="12" stroke-linecap="round"><path d="M256 105l-36 74m54-82-9 78m39-74 18 77M181 476l-41 68m66-68-9 70m38-70 23 66"/></g>
+<g fill="#092550"><text x="700" y="340" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="250" letter-spacing="-12">Roster</text></g>
+<text x="1300" y="340" fill="url(#cyan)" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="250" letter-spacing="-12">Wash</text>
+<text x="710" y="465" fill="#092550" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="76" letter-spacing="1">the fleet washing network</text>
+</svg>

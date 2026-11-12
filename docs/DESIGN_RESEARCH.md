@@ -1,0 +1,2 @@
+# Design research
+Network policy returned HTTP 403 for external design references during this session. The UI uses a restrained navy, blue and white B2B palette, strong type hierarchy and straightforward grid. No customer logos, endorsements, fabricated availability or service metrics are used. Palette values are provisional because the supplied raster logo was not available in the checkout. The UI UX Pro Max skill was installed for local reference. 21st.dev CLI was installed, but account authentication was not present, so hosted tools were not used.

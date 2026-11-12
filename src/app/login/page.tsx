@@ -1,0 +1,1 @@
+import Form from'@/components/form';export default function Page(){return <main className="wrap form-shell"><h1>Provider sign in</h1><Form kind="login"/><p><a href="/recover">Forgot your password?</a></p></main>}

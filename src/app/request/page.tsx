@@ -1,0 +1,1 @@
+import Form from'@/components/form';export default function Page(){return <main className="wrap form-shell"><h1>Tell us about your fleet.</h1><p>We’ll check independent provider coverage in your area. A match is not guaranteed.</p><Form kind="lead"/></main>}

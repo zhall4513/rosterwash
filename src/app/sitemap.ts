@@ -1,0 +1,1 @@
+import type{MetadataRoute}from'next';export default function sitemap():MetadataRoute.Sitemap{const base=process.env.APP_URL||'https://rosterwash.com';return['','/how-it-works','/providers','/faq','/about','/contact','/privacy','/terms','/request'].map(path=>({url:base+path,lastModified:new Date()}))}

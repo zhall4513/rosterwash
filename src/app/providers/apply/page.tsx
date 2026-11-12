@@ -1,0 +1,1 @@
+import Form from'@/components/form';export default function Page(){return <main className="wrap form-shell"><h1>Provider application</h1><p>Manual approval is required.</p><Form kind="apply"/></main>}

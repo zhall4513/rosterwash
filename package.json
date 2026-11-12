@@ -1,0 +1,35 @@
+{
+  "name": "rosterwash",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "admin:create": "tsx scripts/admin.ts",
+    "worker": "tsx scripts/worker.ts"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@electric-sql/pglite": "0.5.16",
+    "pg": "^8.16.3",
+    "zod": "^4.3.6",
+    "stripe": "^22.0.0",
+    "lucide-react": "^0.577.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsx": "^4.21.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/pg": "^8.16.0",
+    "@playwright/test": "^1.58.2"
+  }
+}

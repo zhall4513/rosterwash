@@ -1,0 +1,8 @@
+# Testing
+`npm run typecheck`, `npm test`, and `npm run build` are local checks. The Playwright suite and visual screenshots are not configured yet. Before release add tests for referral math, expiration, duplicate submissions, atomic acceptance, tenant isolation, verified Stripe events, fee/refund reconciliation, UI mobile layouts and reduced motion. No live charge or paid integration has been run.
+Current automated validation: TypeScript check, 4 rule unit tests, 1 PGlite lead/consent/idempotency integration test, and 3 Playwright public page/form smoke tests. Playwright uses the system Chromium path in this environment. No Stripe sandbox credentials or event replay have been used.
+Latest repeat run: all 4 browser smoke/responsive checks, 5 automated unit/integration tests, type checking, production build and `git diff --check` passed.
+Latest focused routing integration check confirms a provider lacking an executed agreement receives no offer, even when other eligibility flags are set.
+Latest Playwright suite has 6 passing checks: homepage copy, request form, provider form, mobile overflow, sitemap/robots, and development runtime errors. Production build passes after CSP changes.
+Latest full run after partner portal updates: typecheck, six tests, six Playwright checks, production build and diff whitespace check passed.
+Added an end-to-end customer submission check, exercising browser form, same-origin protections, API validation, database persistence and closed-market waitlisting. Test-only dev-origin matching accounts for the loopback alias used by Next's server; production still requires exact configured APP_URL origin.
